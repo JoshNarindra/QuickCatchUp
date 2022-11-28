@@ -33,7 +33,7 @@ public class WhatWeDidLastWeek {
                 age = reader.nextInt();
                 validInput = true;
             } catch (Exception e) {
-                System.out.println("Value not Valid!");
+                System.out.println("Value is not Valid!");
             }
         }
         System.out.println("Your age is: " + age + ".");
